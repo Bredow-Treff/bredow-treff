@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angebote &amp; Öffnungszeiten – Bredowtreff Moabit</title>
+  <meta name="description" content="Öffnungszeiten, Tagesangebote, Wochenprogramm und besondere Angebote wie Ferienprogramm und Schulprojekte im Bredowtreff in Berlin-Moabit.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <meta name="theme-color" content="#4E702E">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+<!-- ===== KOPF (auf allen Seiten gleich) ===== -->
+<header class="kopf">
+  <div class="inhalt">
+    <a class="logo" href="index.html"><img src="images/logo.svg" alt="Bredowtreff – zur Startseite" width="128" height="56"></a>
+    <nav class="hauptnav" aria-label="Hauptmenü">
+      <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="angebote.html" aria-current="page">Angebote</a></li>
+        <li><a href="ueber-uns.html">Über uns</a></li>
+        <li><a href="archiv.html">Archiv</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- ===== ENDE KOPF ===== -->
+
+<main id="inhalt">
+
+  <div class="inhalt seitenkopf">
+    <h1>Angebote</h1>
+  </div>
+
+  <!-- ==========================================================
+       1. ÖFFNUNGSZEITEN
+       ========================================================== -->
+  <section id="zeiten" class="abschnitt">
+    <div class="inhalt">
+      <h2>Öffnungszeiten</h2>
+
+      <!-- ===== ÖFFNUNGSZEITEN – HIER ÄNDERN =====
+           Pro Gruppe ein <li>: Gruppe, Tage und Uhrzeit anpassen.
+      -->
+      <ul class="zeiten">
+        <li>
+          <strong>Kinder 8–14 Jahre</strong>
+          Montag bis Freitag
+          <span class="zeit">13:00 – 17:30 Uhr</span>
+        </li>
+        <li>
+          <strong>Jugendliche 15–27 Jahre</strong>
+          Montag bis Mittwoch
+          <span class="zeit">18:00 – 22:00 Uhr</span>
+        </li>
+      </ul>
+      <!-- ===== ENDE ÖFFNUNGSZEITEN ===== -->
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       2. TAGESANGEBOTE
+       ========================================================== -->
+  <section id="tagesangebote" class="abschnitt abschnitt--hell">
+    <div class="inhalt">
+      <h2>Tagesangebote</h2>
+
+      <!-- ===== TAGESANGEBOTE – HIER ÄNDERN ===== -->
+      <div class="karten">
+        <article class="karte">
+          <img src="images/kachel-klettern.jpg" alt="Bogenschießen vor der Kletterwand in der Sporthalle" width="800" height="600" loading="lazy">
+          <h3>Für Kinder bis 14 Jahre</h3>
+          <p><strong>Montag bis Freitag von 13:00 – 17:30 Uhr</strong></p>
+          <p>Tischtennis – Saalspiele – Kochen – Malen – Klettern – Inliner – Volleyball – Backen – Basteln uvm.</p>
+        </article>
+        <article class="karte">
+          <img src="images/kachel-abends.jpg" alt="Sporthalle im Schwarzlicht mit leuchtendem Moabit-Graffiti" width="800" height="600" loading="lazy">
+          <h3>Für Jugendliche bis 27 Jahre</h3>
+          <p><strong>Montag bis Mittwoch von 18:00 – 22:00 Uhr</strong></p>
+          <p>Alle Angebote in der Sporthalle – Billard – Gesellschaftsspiele uvm.</p>
+        </article>
+      </div>
+      <!-- ===== ENDE TAGESANGEBOTE ===== -->
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       3. WOCHENPROGRAMM
+       ========================================================== -->
+  <section id="wochenprogramm" class="abschnitt abschnitt--gruen">
+    <div class="inhalt">
+      <h2>Wochenprogramm</h2>
+
+      <!-- ===== WOCHENPROGRAMM – HIER ÄNDERN =====
+           Pro Wochentag ein <article>. Ein Angebot = eine Zeile:
+             <li><span class="zeit">17:30 – 20:00 Uhr</span> Tischtennis</li>
+           data-tag (mo, di, mi, do, fr) bitte NICHT ändern – damit wird "Heute" markiert.
+      -->
+      <div class="woche">
+        <article class="tag-karte" data-tag="mo">
+          <h3>Montag</h3>
+          <ul>
+            <li><span class="zeit">17:30 – 20:00 Uhr</span> Tischtennis</li>
+            <li><span class="zeit">18:00 – 21:00 Uhr</span> Selbstverteidigung</li>
+            <li><span class="zeit">20:00 – 22:00 Uhr</span> Volleyball</li>
+          </ul>
+        </article>
+        <article class="tag-karte" data-tag="di">
+          <h3>Dienstag</h3>
+          <ul>
+            <li><span class="zeit">19:00 – 21:00 Uhr</span> Zweifelderball</li>
+            <li><span class="zeit">19:30 – 21:00 Uhr</span> Boxen</li>
+          </ul>
+        </article>
+        <article class="tag-karte" data-tag="mi">
+          <h3>Mittwoch</h3>
+          <ul>
+            <li><span class="zeit">16:00 – 17:15 Uhr</span> Fußballtraining</li>
+            <li><span class="zeit">18:00 – 22:00 Uhr</span> Volleyball</li>
+            <li><span class="zeit">18:00 – 22:00 Uhr</span> Bewerbungsfotos im Fotostudio</li>
+          </ul>
+        </article>
+        <article class="tag-karte" data-tag="do">
+          <h3>Donnerstag</h3>
+          <ul>
+            <li><span class="zeit">17:45 – 19:15 Uhr</span> Selbstverteidigung für junge Frauen</li>
+            <li><span class="zeit">18:00 – 22:00 Uhr</span> Fotografie – Dunkelkammer</li>
+          </ul>
+        </article>
+        <article class="tag-karte" data-tag="fr">
+          <h3>Freitag</h3>
+          <ul>
+            <li><span class="zeit">15:30 – 17:30 Uhr</span> E-Sport Playstation</li>
+          </ul>
+        </article>
+      </div>
+      <!-- ===== ENDE WOCHENPROGRAMM ===== -->
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       4. BESONDERES
+       ========================================================== -->
+  <section id="besonderes" class="abschnitt">
+    <div class="inhalt">
+      <h2>Besonderes</h2>
+
+      <!-- ===== BESONDERES – HIER ÄNDERN =====
+           Für einen aktuellen Termin diese Vorlage kopieren und als ERSTE Karte
+           in die Liste unten einfügen. Nach dem Termin die Karte wieder löschen.
+           ________________________________________________
+           <article class="karte karte--termin">
+             <p class="datum">Samstag, 4.7.2026, 13:00 – 18:00 Uhr</p>
+             <h3>Titel der Veranstaltung</h3>
+             <p>Kurze Beschreibung in ein bis drei Sätzen.</p>
+           </article>
+           ________________________________________________
+      -->
+      <div class="karten">
+        <article class="karte">
+          <img src="images/archiv-2023-hallenspiele-2.jpg" alt="Bogenschießen mit Anleitung bei den Hallenspielen in den Ferien" width="1200" height="746" loading="lazy">
+          <h3>Ferienprogramm</h3>
+          <p>In den Berliner Schulferien gibt es bei uns ein eigenes Programm mit Ausflügen, Turnieren und Aktionen im Haus. Das Programm hängt rechtzeitig im Haus aus und steht auf Instagram.</p>
+        </article>
+        <article class="karte">
+          <img src="images/archiv-2024-abschlussball-1.jpg" alt="Festlich gekleidete Gäste beim Abschlussball im Hof" width="1200" height="799" loading="lazy">
+          <h3>Schulprojekte &amp; Gruppen</h3>
+          <p>Schulklassen und Gruppen sind bei uns willkommen – für Projekttage, Sportaktionen oder Feiern wie den Schulabschluss. Termine bitte nur auf Anfrage.</p>
+        </article>
+        <article class="karte">
+          <img src="images/kachel-feste.jpg" alt="Kinder auf einer Rugby-Hüpfburg beim Kiezfest" width="800" height="600" loading="lazy">
+          <h3>Feste und Events</h3>
+          <p>Kiezfest im Sommer, Neujahrsfeuer im Januar, Schwarzlicht-Volleyball und mehr. Fotos von früher findest du im <a href="archiv.html">Archiv</a>.</p>
+        </article>
+      </div>
+      <!-- ===== ENDE BESONDERES ===== -->
+
+      <p class="hinweis-text">Aktuelle Termine und Angebote findet ihr auf Instagram: <a href="https://www.instagram.com/bredowtreff/">@bredowtreff</a></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FUSS (auf allen Seiten gleich) ===== -->
+<footer class="fuss">
+  <div class="inhalt">
+    <div>
+      <h2>Bredowtreff</h2>
+      <address>Wolfgang-Scheunemann-Haus<br>Bredowstraße 31–32<br>10551 Berlin-Moabit</address>
+    </div>
+    <div>
+      <h2>Kontakt</h2>
+      <ul>
+        <li><a href="tel:+493039408078">030 394 08 078</a></li>
+        <li><a href="mailto:info@bredow-treff.de">info@bredow-treff.de</a></li>
+        <li><a href="https://www.instagram.com/bredowtreff/">Instagram @bredowtreff</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Träger</h2>
+      <div class="traeger">
+        <img src="images/bezirksamt-mitte.jpg" alt="Logo Bezirksamt Mitte von Berlin" width="72" height="54" loading="lazy">
+        <span>Eine Einrichtung des Bezirksamts Mitte von Berlin</span>
+      </div>
+    </div>
+    <div>
+      <h2>Rechtliches</h2>
+      <ul>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- ===== ENDE FUSS ===== -->
+
+</body>
+</html>

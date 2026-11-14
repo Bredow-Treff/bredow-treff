@@ -1,0 +1,17 @@
+# Cloudflare Pages: HTTP-Header für alle Seiten
+# Hier muss im Alltag nichts geändert werden.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: default-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'
+
+/images/*
+  Cache-Control: public, max-age=2592000
+
+/css/*
+  Cache-Control: public, max-age=86400
+
+/js/*
+  Cache-Control: public, max-age=86400

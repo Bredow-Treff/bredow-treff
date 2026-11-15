@@ -5,15 +5,6 @@
 (() => {
   'use strict';
 
-  /* Angebote: heutigen Tag im Wochenprogramm markieren (Berliner Zeit) */
-  const tag = new Intl.DateTimeFormat('de-DE', { weekday: 'short', timeZone: 'Europe/Berlin' })
-    .format(new Date()).slice(0, 2).toLowerCase();               // "mo", "di", …
-  const karte = document.querySelector(`.tag-karte[data-tag="${tag}"]`);
-  if (karte) {
-    karte.classList.add('ist-heute');
-    karte.querySelector('h3').insertAdjacentHTML('beforeend', '<span class="heute-marke">Heute</span>');
-  }
-
   /* Archiv: Fotos groß anzeigen */
   const galerien = document.querySelectorAll('.galerie');
   if (!galerien.length || !window.HTMLDialogElement) return;

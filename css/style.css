@@ -8,7 +8,7 @@
   --gruen: #4E702E;          /* Schild-Grün aus dem Logo */
   --gruen-dunkel: #33491E;
   --gruen-hell: #EEF3E8;
-  --gelb: #FFC93C;           /* Akzent: Heute, Fokus */
+  --gelb: #FFC93C;           /* Akzent: Fokus, Termine */
   --gelb-hell: #FFF4D6;
   --text: #1A1A1A;
   --text-leise: #555;
@@ -160,8 +160,6 @@ ul { padding-left: 1.2em; }
 .tag-karte ul { list-style: none; padding: 0; margin: 0; }
 .tag-karte li { padding: .5rem 0; border-top: 1px solid var(--linie); line-height: 1.35; }
 .tag-karte .zeit { display: block; font-size: .9rem; font-weight: 800; color: var(--gruen); }
-.tag-karte.ist-heute { border-color: var(--gelb); box-shadow: 0 0 0 4px var(--gelb-hell); }
-.heute-marke { font-size: .75rem; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; background: var(--gelb); padding: .15rem .5rem; border-radius: 999px; }
 
 /* ---------- Besonderes (Angebote) ---------- */
 .karte--termin { border: 2px solid var(--gelb); background: var(--gelb-hell); }
